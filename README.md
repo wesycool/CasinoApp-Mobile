@@ -13,6 +13,8 @@ Android Studio and Xcode
 ## Usage
 Run the application on either Android Studio or Xcode using it's respective folder (Android or iOS).
 
+[![Screenshot](./screenshot.png)](./slides.pptx)
+
 ## License
 MIT License
 
