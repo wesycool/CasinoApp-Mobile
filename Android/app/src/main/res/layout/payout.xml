@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#FFFFFF"
+    android:alpha="0.75"
+    android:padding="5dip">
+
+    <TextView
+        android:id="@+id/jackpot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:id="@+id/card1"
+        android:layout_width="36.63101604dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginLeft="125dp"
+        app:srcCompat="@drawable/card0" />
+
+    <ImageView
+        android:id="@+id/card2"
+        android:layout_width="36.63101604dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/card1"
+        android:layout_toRightOf="@id/card1"
+        app:srcCompat="@drawable/card0" />
+
+    <ImageView
+        android:id="@+id/card3"
+        android:layout_width="36.63101604dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/card2"
+        android:layout_toRightOf="@id/card2"
+        app:srcCompat="@drawable/card0" />
+
+    <ImageView
+        android:id="@+id/card4"
+        android:layout_width="36.63101604dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/card3"
+        android:layout_toRightOf="@id/card3"
+        app:srcCompat="@drawable/card0" />
+
+    <ImageView
+        android:id="@+id/card5"
+        android:layout_width="36.63101604dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/card4"
+        android:layout_toRightOf="@id/card4"
+        app:srcCompat="@drawable/card0" />
+
+    <TextView
+        android:id="@+id/payout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/jackpot"
+        android:layout_toRightOf="@id/jackpot"
+        android:gravity="end"
+        android:textAlignment="textEnd"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:textColor="#000000"/>
+</RelativeLayout>

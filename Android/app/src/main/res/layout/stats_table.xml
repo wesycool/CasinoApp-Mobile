@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:alpha="0.75"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <TextView
+        android:id="@+id/jackpot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="17sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/winRatio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@id/jackpot"
+        android:layout_toRightOf="@id/jackpot"
+        android:gravity="end"
+        android:textAlignment="textEnd"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/jackpotAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jackpot"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/percentRatio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/winRatio"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@id/jackpotAmount"
+        android:layout_toRightOf="@id/jackpotAmount"
+        android:gravity="end"
+        android:textAlignment="textEnd"
+        android:textColor="#000000" />
+
+</RelativeLayout>

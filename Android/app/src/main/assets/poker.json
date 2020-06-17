@@ -1,0 +1,87 @@
+{
+    "poker":
+    [
+        {   "jackpot": "Royal Flush",
+            "payout": 1000,
+            "card1": "card36",
+            "card2": "card37",
+            "card3": "card38",
+            "card4": "card39",
+            "card5": "card27"
+
+        },
+        {   "jackpot": "Straight Flush",
+            "payout": 200,
+            "card1": "card20",
+            "card2": "card21",
+            "card3": "card22",
+            "card4": "card23",
+            "card5": "card24"
+                    
+        },
+        {   "jackpot": "Four of a Kind",
+            "payout": 100,
+            "card1": "card34",
+            "card2": "card8",
+            "card3": "card21",
+            "card4": "card47",
+            "card5": "card36"
+        },
+        {   "jackpot": "Full House",
+            "payout": 50,
+            "card1": "card23",
+            "card2": "card10",
+            "card3": "card36",
+            "card4": "card7",
+            "card5": "card46"
+        },
+        {   "jackpot": "Flush",
+            "payout": 20,
+            "card1": "card2",
+            "card2": "card4",
+            "card3": "card6",
+            "card4": "card9",
+            "card5": "card10"
+        },
+        {   "jackpot": "Straight",
+            "payout": 10,
+            "card1": "card28",
+            "card2": "card42",
+            "card3": "card17",
+            "card4": "card31",
+            "card5": "card19"
+        },
+        {   "jackpot": "Three of a Kind",
+            "payout": 4,
+            "card1": "card45",
+            "card2": "card32",
+            "card3": "card6",
+            "card4": "card46",
+            "card5": "card14"
+        },
+        {   "jackpot": "Two Pairs",
+            "payout": 2,
+            "card1": "card29",
+            "card2": "card16",
+            "card3": "card7",
+            "card4": "card33",
+            "card5": "card48"
+        },
+        {   "jackpot": "One Pair",
+            "payout": 1,
+            "card1": "card31",
+            "card2": "card44",
+            "card3": "card21",
+            "card4": "card48",
+            "card5": "card6"
+        },
+        {   "jackpot": "High Ace",
+            "payout": 0.5,
+            "card1": "card27",
+            "card2": "card49",
+            "card3": "card2",
+            "card4": "card4",
+            "card5": "card26"
+        }
+	]  
+}

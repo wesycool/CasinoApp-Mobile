@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Casino App</string>
+    <string name="poker">Poker</string>
+    <string name="play">"Let's Play"</string>
+    <string name="account">My Account</string>
+    <string name="creditLabel">Credit: $0.00</string>
+    <string name="betLabel">Bet: $0.30</string>
+    <string name="bet1">Bet x1</string>
+    <string name="bet5">Bet x5</string>
+    <string name="bet10">Bet x10</string>
+    <string name="bet50">Bet x50</string>
+    <string name="payout">Payout</string>
+    <string name="credit">Add Credit</string>
+    <string name="jackpot">Jackpot</string>
+    <string name="win">Winner</string>
+    <string name="stats">Stats Detail</string>
+    <string name="game">Total Game: 0</string>
+    <string name="winAmount">Win Amount: $0.00</string>
+    <string name="winRatio">Win Ratio: 0 : 0</string>
+    <string name="percentRatio">Percent Ratio: 0.0%</string>
+
+</resources>

@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		881F4303243FC406001139EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F4302243FC406001139EF /* AppDelegate.swift */; };
+		881F4305243FC406001139EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F4304243FC406001139EF /* SceneDelegate.swift */; };
+		881F4307243FC406001139EF /* PokerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F4306243FC406001139EF /* PokerViewController.swift */; };
+		881F430A243FC406001139EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881F4308243FC406001139EF /* Main.storyboard */; };
+		881F430C243FC407001139EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881F430B243FC407001139EF /* Assets.xcassets */; };
+		881F430F243FC407001139EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881F430D243FC407001139EF /* LaunchScreen.storyboard */; };
+		881F434D243FD31F001139EF /* card49.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4317243FD31F001139EF /* card49.jpg */; };
+		881F434E243FD31F001139EF /* card48.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4318243FD31F001139EF /* card48.jpg */; };
+		881F434F243FD31F001139EF /* card15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4319243FD31F001139EF /* card15.jpg */; };
+		881F4350243FD31F001139EF /* card29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F431A243FD31F001139EF /* card29.jpg */; };
+		881F4351243FD31F001139EF /* card28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F431B243FD31F001139EF /* card28.jpg */; };
+		881F4352243FD31F001139EF /* card14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F431C243FD31F001139EF /* card14.jpg */; };
+		881F4353243FD31F001139EF /* card9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F431D243FD31F001139EF /* card9.jpg */; };
+		881F4354243FD31F001139EF /* card16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F431E243FD31F001139EF /* card16.jpg */; };
+		881F4355243FD31F001139EF /* card17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F431F243FD31F001139EF /* card17.jpg */; };
+		881F4356243FD31F001139EF /* card8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4320243FD31F001139EF /* card8.jpg */; };
+		881F4357243FD31F001139EF /* card13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4321243FD31F001139EF /* card13.jpg */; };
+		881F4358243FD31F001139EF /* card12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4322243FD31F001139EF /* card12.jpg */; };
+		881F4359243FD31F001139EF /* card38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4323243FD31F001139EF /* card38.jpg */; };
+		881F435A243FD31F001139EF /* card10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4324243FD31F001139EF /* card10.jpg */; };
+		881F435B243FD31F001139EF /* card11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4325243FD31F001139EF /* card11.jpg */; };
+		881F435C243FD31F001139EF /* card39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4326243FD31F001139EF /* card39.jpg */; };
+		881F435D243FD31F001139EF /* card3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4327243FD31F001139EF /* card3.jpg */; };
+		881F435E243FD31F001139EF /* card34.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4328243FD31F001139EF /* card34.jpg */; };
+		881F435F243FD31F001139EF /* card20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4329243FD31F001139EF /* card20.jpg */; };
+		881F4360243FD31F001139EF /* card21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F432A243FD31F001139EF /* card21.jpg */; };
+		881F4361243FD31F001139EF /* card35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F432B243FD31F001139EF /* card35.jpg */; };
+		881F4362243FD31F001139EF /* card2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F432C243FD31F001139EF /* card2.jpg */; };
+		881F4363243FD31F001139EF /* card23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F432D243FD31F001139EF /* card23.jpg */; };
+		881F4364243FD31F001139EF /* card37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F432E243FD31F001139EF /* card37.jpg */; };
+		881F4365243FD31F001139EF /* card36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F432F243FD31F001139EF /* card36.jpg */; };
+		881F4366243FD31F001139EF /* card22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4330243FD31F001139EF /* card22.jpg */; };
+		881F4367243FD31F001139EF /* card1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4331243FD31F001139EF /* card1.jpg */; };
+		881F4368243FD31F001139EF /* card5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4332243FD31F001139EF /* card5.jpg */; };
+		881F4369243FD31F001139EF /* card26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4333243FD31F001139EF /* card26.jpg */; };
+		881F436A243FD31F001139EF /* card32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4334243FD31F001139EF /* card32.jpg */; };
+		881F436B243FD31F001139EF /* card33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4335243FD31F001139EF /* card33.jpg */; };
+		881F436C243FD31F001139EF /* card27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4336243FD31F001139EF /* card27.jpg */; };
+		881F436D243FD31F001139EF /* card4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4337243FD31F001139EF /* card4.jpg */; };
+		881F436E243FD31F001139EF /* card6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4338243FD31F001139EF /* card6.jpg */; };
+		881F436F243FD31F001139EF /* card19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4339243FD31F001139EF /* card19.jpg */; };
+		881F4370243FD31F001139EF /* card31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F433A243FD31F001139EF /* card31.jpg */; };
+		881F4371243FD31F001139EF /* card25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F433B243FD31F001139EF /* card25.jpg */; };
+		881F4372243FD31F001139EF /* card24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F433C243FD31F001139EF /* card24.jpg */; };
+		881F4373243FD31F001139EF /* card30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F433D243FD31F001139EF /* card30.jpg */; };
+		881F4374243FD31F001139EF /* card18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F433E243FD31F001139EF /* card18.jpg */; };
+		881F4375243FD31F001139EF /* card7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F433F243FD31F001139EF /* card7.jpg */; };
+		881F4377243FD31F001139EF /* card43.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4342243FD31F001139EF /* card43.jpg */; };
+		881F4378243FD31F001139EF /* card42.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4343243FD31F001139EF /* card42.jpg */; };
+		881F4379243FD31F001139EF /* card40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4344243FD31F001139EF /* card40.jpg */; };
+		881F437A243FD31F001139EF /* card41.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4345243FD31F001139EF /* card41.jpg */; };
+		881F437B243FD31F001139EF /* card45.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4346243FD31F001139EF /* card45.jpg */; };
+		881F437C243FD31F001139EF /* card51.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4347243FD31F001139EF /* card51.jpg */; };
+		881F437D243FD31F001139EF /* card50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4348243FD31F001139EF /* card50.jpg */; };
+		881F437E243FD31F001139EF /* card44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F4349243FD31F001139EF /* card44.jpg */; };
+		881F437F243FD31F001139EF /* card52.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F434A243FD31F001139EF /* card52.jpg */; };
+		881F4380243FD31F001139EF /* card46.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F434B243FD31F001139EF /* card46.jpg */; };
+		881F4381243FD31F001139EF /* card47.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881F434C243FD31F001139EF /* card47.jpg */; };
+		8836140B24485BDF0037A67C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8836140A24485BDF0037A67C /* Extension.swift */; };
+		884B01B5243FFB76003831AE /* card0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 884B01B4243FFB76003831AE /* card0.jpg */; };
+		884B01BB244055E7003831AE /* PayoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B01BA244055E7003831AE /* PayoutTableViewCell.swift */; };
+		884B01BD24405920003831AE /* PayoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B01BC24405920003831AE /* PayoutTableViewController.swift */; };
+		884B01BF24405C97003831AE /* poker.json in Resources */ = {isa = PBXBuildFile; fileRef = 884B01BE24405C96003831AE /* poker.json */; };
+		884B01C324405EA3003831AE /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B01C224405EA3003831AE /* SwiftyJSON.swift */; };
+		884B01C524417772003831AE /* Poker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B01C424417771003831AE /* Poker.swift */; };
+		884B01C724417C1A003831AE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B01C624417C1A003831AE /* MainViewController.swift */; };
+		884B01D02442CE0C003831AE /* poker.png in Resources */ = {isa = PBXBuildFile; fileRef = 884B01CF2442CE0C003831AE /* poker.png */; };
+		88B246A52446267D000F2EDB /* StatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B246A42446267D000F2EDB /* StatsTableViewCell.swift */; };
+		88B246A92446B109000F2EDB /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B246A82446B109000F2EDB /* AccountViewController.swift */; };
+		88B246AB24476604000F2EDB /* StatsDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B246AA24476604000F2EDB /* StatsDetailTableViewController.swift */; };
+		88B246AD24476622000F2EDB /* StatsDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B246AC24476622000F2EDB /* StatsDetailTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		881F42FF243FC406001139EF /* Poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		881F4302243FC406001139EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		881F4304243FC406001139EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		881F4306243FC406001139EF /* PokerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerViewController.swift; sourceTree = "<group>"; };
+		881F4309243FC406001139EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		881F430B243FC407001139EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		881F430E243FC407001139EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		881F4310243FC407001139EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881F4317243FD31F001139EF /* card49.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card49.jpg; sourceTree = "<group>"; };
+		881F4318243FD31F001139EF /* card48.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card48.jpg; sourceTree = "<group>"; };
+		881F4319243FD31F001139EF /* card15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card15.jpg; sourceTree = "<group>"; };
+		881F431A243FD31F001139EF /* card29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card29.jpg; sourceTree = "<group>"; };
+		881F431B243FD31F001139EF /* card28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card28.jpg; sourceTree = "<group>"; };
+		881F431C243FD31F001139EF /* card14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card14.jpg; sourceTree = "<group>"; };
+		881F431D243FD31F001139EF /* card9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card9.jpg; sourceTree = "<group>"; };
+		881F431E243FD31F001139EF /* card16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card16.jpg; sourceTree = "<group>"; };
+		881F431F243FD31F001139EF /* card17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card17.jpg; sourceTree = "<group>"; };
+		881F4320243FD31F001139EF /* card8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card8.jpg; sourceTree = "<group>"; };
+		881F4321243FD31F001139EF /* card13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card13.jpg; sourceTree = "<group>"; };
+		881F4322243FD31F001139EF /* card12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card12.jpg; sourceTree = "<group>"; };
+		881F4323243FD31F001139EF /* card38.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card38.jpg; sourceTree = "<group>"; };
+		881F4324243FD31F001139EF /* card10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card10.jpg; sourceTree = "<group>"; };
+		881F4325243FD31F001139EF /* card11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card11.jpg; sourceTree = "<group>"; };
+		881F4326243FD31F001139EF /* card39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card39.jpg; sourceTree = "<group>"; };
+		881F4327243FD31F001139EF /* card3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card3.jpg; sourceTree = "<group>"; };
+		881F4328243FD31F001139EF /* card34.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card34.jpg; sourceTree = "<group>"; };
+		881F4329243FD31F001139EF /* card20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card20.jpg; sourceTree = "<group>"; };
+		881F432A243FD31F001139EF /* card21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card21.jpg; sourceTree = "<group>"; };
+		881F432B243FD31F001139EF /* card35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card35.jpg; sourceTree = "<group>"; };
+		881F432C243FD31F001139EF /* card2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card2.jpg; sourceTree = "<group>"; };
+		881F432D243FD31F001139EF /* card23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card23.jpg; sourceTree = "<group>"; };
+		881F432E243FD31F001139EF /* card37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card37.jpg; sourceTree = "<group>"; };
+		881F432F243FD31F001139EF /* card36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card36.jpg; sourceTree = "<group>"; };
+		881F4330243FD31F001139EF /* card22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card22.jpg; sourceTree = "<group>"; };
+		881F4331243FD31F001139EF /* card1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card1.jpg; sourceTree = "<group>"; };
+		881F4332243FD31F001139EF /* card5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card5.jpg; sourceTree = "<group>"; };
+		881F4333243FD31F001139EF /* card26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card26.jpg; sourceTree = "<group>"; };
+		881F4334243FD31F001139EF /* card32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card32.jpg; sourceTree = "<group>"; };
+		881F4335243FD31F001139EF /* card33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card33.jpg; sourceTree = "<group>"; };
+		881F4336243FD31F001139EF /* card27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card27.jpg; sourceTree = "<group>"; };
+		881F4337243FD31F001139EF /* card4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card4.jpg; sourceTree = "<group>"; };
+		881F4338243FD31F001139EF /* card6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card6.jpg; sourceTree = "<group>"; };
+		881F4339243FD31F001139EF /* card19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card19.jpg; sourceTree = "<group>"; };
+		881F433A243FD31F001139EF /* card31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card31.jpg; sourceTree = "<group>"; };
+		881F433B243FD31F001139EF /* card25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card25.jpg; sourceTree = "<group>"; };
+		881F433C243FD31F001139EF /* card24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card24.jpg; sourceTree = "<group>"; };
+		881F433D243FD31F001139EF /* card30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card30.jpg; sourceTree = "<group>"; };
+		881F433E243FD31F001139EF /* card18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card18.jpg; sourceTree = "<group>"; };
+		881F433F243FD31F001139EF /* card7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card7.jpg; sourceTree = "<group>"; };
+		881F4342243FD31F001139EF /* card43.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card43.jpg; sourceTree = "<group>"; };
+		881F4343243FD31F001139EF /* card42.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card42.jpg; sourceTree = "<group>"; };
+		881F4344243FD31F001139EF /* card40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card40.jpg; sourceTree = "<group>"; };
+		881F4345243FD31F001139EF /* card41.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card41.jpg; sourceTree = "<group>"; };
+		881F4346243FD31F001139EF /* card45.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card45.jpg; sourceTree = "<group>"; };
+		881F4347243FD31F001139EF /* card51.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card51.jpg; sourceTree = "<group>"; };
+		881F4348243FD31F001139EF /* card50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card50.jpg; sourceTree = "<group>"; };
+		881F4349243FD31F001139EF /* card44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card44.jpg; sourceTree = "<group>"; };
+		881F434A243FD31F001139EF /* card52.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card52.jpg; sourceTree = "<group>"; };
+		881F434B243FD31F001139EF /* card46.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card46.jpg; sourceTree = "<group>"; };
+		881F434C243FD31F001139EF /* card47.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card47.jpg; sourceTree = "<group>"; };
+		8836140A24485BDF0037A67C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		884B01B4243FFB76003831AE /* card0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card0.jpg; sourceTree = "<group>"; };
+		884B01BA244055E7003831AE /* PayoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutTableViewCell.swift; sourceTree = "<group>"; };
+		884B01BC24405920003831AE /* PayoutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutTableViewController.swift; sourceTree = "<group>"; };
+		884B01BE24405C96003831AE /* poker.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poker.json; sourceTree = "<group>"; };
+		884B01C224405EA3003831AE /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		884B01C424417771003831AE /* Poker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poker.swift; sourceTree = "<group>"; };
+		884B01C624417C1A003831AE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		884B01CF2442CE0C003831AE /* poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poker.png; sourceTree = "<group>"; };
+		88B246A42446267D000F2EDB /* StatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsTableViewCell.swift; sourceTree = "<group>"; };
+		88B246A82446B109000F2EDB /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		88B246AA24476604000F2EDB /* StatsDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsDetailTableViewController.swift; sourceTree = "<group>"; };
+		88B246AC24476622000F2EDB /* StatsDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsDetailTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		881F42FC243FC406001139EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		881F42F6243FC406001139EF = {
+			isa = PBXGroup;
+			children = (
+				881F4301243FC406001139EF /* Casino App */,
+				881F4300243FC406001139EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		881F4300243FC406001139EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				881F42FF243FC406001139EF /* Poker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		881F4301243FC406001139EF /* Casino App */ = {
+			isa = PBXGroup;
+			children = (
+				884B01C224405EA3003831AE /* SwiftyJSON.swift */,
+				881F4302243FC406001139EF /* AppDelegate.swift */,
+				881F4304243FC406001139EF /* SceneDelegate.swift */,
+				884B01BE24405C96003831AE /* poker.json */,
+				884B01C424417771003831AE /* Poker.swift */,
+				8836140A24485BDF0037A67C /* Extension.swift */,
+				884B01C624417C1A003831AE /* MainViewController.swift */,
+				881F4306243FC406001139EF /* PokerViewController.swift */,
+				884B01BC24405920003831AE /* PayoutTableViewController.swift */,
+				884B01BA244055E7003831AE /* PayoutTableViewCell.swift */,
+				88B246A82446B109000F2EDB /* AccountViewController.swift */,
+				88B246A42446267D000F2EDB /* StatsTableViewCell.swift */,
+				88B246AA24476604000F2EDB /* StatsDetailTableViewController.swift */,
+				88B246AC24476622000F2EDB /* StatsDetailTableViewCell.swift */,
+				884B01CF2442CE0C003831AE /* poker.png */,
+				881F4316243FD31F001139EF /* cards */,
+				881F4308243FC406001139EF /* Main.storyboard */,
+				881F430B243FC407001139EF /* Assets.xcassets */,
+				881F430D243FC407001139EF /* LaunchScreen.storyboard */,
+				881F4310243FC407001139EF /* Info.plist */,
+			);
+			path = "Casino App";
+			sourceTree = "<group>";
+		};
+		881F4316243FD31F001139EF /* cards */ = {
+			isa = PBXGroup;
+			children = (
+				884B01B4243FFB76003831AE /* card0.jpg */,
+				881F4317243FD31F001139EF /* card49.jpg */,
+				881F4318243FD31F001139EF /* card48.jpg */,
+				881F4319243FD31F001139EF /* card15.jpg */,
+				881F431A243FD31F001139EF /* card29.jpg */,
+				881F431B243FD31F001139EF /* card28.jpg */,
+				881F431C243FD31F001139EF /* card14.jpg */,
+				881F431D243FD31F001139EF /* card9.jpg */,
+				881F431E243FD31F001139EF /* card16.jpg */,
+				881F431F243FD31F001139EF /* card17.jpg */,
+				881F4320243FD31F001139EF /* card8.jpg */,
+				881F4321243FD31F001139EF /* card13.jpg */,
+				881F4322243FD31F001139EF /* card12.jpg */,
+				881F4323243FD31F001139EF /* card38.jpg */,
+				881F4324243FD31F001139EF /* card10.jpg */,
+				881F4325243FD31F001139EF /* card11.jpg */,
+				881F4326243FD31F001139EF /* card39.jpg */,
+				881F4327243FD31F001139EF /* card3.jpg */,
+				881F4328243FD31F001139EF /* card34.jpg */,
+				881F4329243FD31F001139EF /* card20.jpg */,
+				881F432A243FD31F001139EF /* card21.jpg */,
+				881F432B243FD31F001139EF /* card35.jpg */,
+				881F432C243FD31F001139EF /* card2.jpg */,
+				881F432D243FD31F001139EF /* card23.jpg */,
+				881F432E243FD31F001139EF /* card37.jpg */,
+				881F432F243FD31F001139EF /* card36.jpg */,
+				881F4330243FD31F001139EF /* card22.jpg */,
+				881F4331243FD31F001139EF /* card1.jpg */,
+				881F4332243FD31F001139EF /* card5.jpg */,
+				881F4333243FD31F001139EF /* card26.jpg */,
+				881F4334243FD31F001139EF /* card32.jpg */,
+				881F4335243FD31F001139EF /* card33.jpg */,
+				881F4336243FD31F001139EF /* card27.jpg */,
+				881F4337243FD31F001139EF /* card4.jpg */,
+				881F4338243FD31F001139EF /* card6.jpg */,
+				881F4339243FD31F001139EF /* card19.jpg */,
+				881F433A243FD31F001139EF /* card31.jpg */,
+				881F433B243FD31F001139EF /* card25.jpg */,
+				881F433C243FD31F001139EF /* card24.jpg */,
+				881F433D243FD31F001139EF /* card30.jpg */,
+				881F433E243FD31F001139EF /* card18.jpg */,
+				881F433F243FD31F001139EF /* card7.jpg */,
+				881F4342243FD31F001139EF /* card43.jpg */,
+				881F4343243FD31F001139EF /* card42.jpg */,
+				881F4344243FD31F001139EF /* card40.jpg */,
+				881F4345243FD31F001139EF /* card41.jpg */,
+				881F4346243FD31F001139EF /* card45.jpg */,
+				881F4347243FD31F001139EF /* card51.jpg */,
+				881F4348243FD31F001139EF /* card50.jpg */,
+				881F4349243FD31F001139EF /* card44.jpg */,
+				881F434A243FD31F001139EF /* card52.jpg */,
+				881F434B243FD31F001139EF /* card46.jpg */,
+				881F434C243FD31F001139EF /* card47.jpg */,
+			);
+			path = cards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		881F42FE243FC406001139EF /* Casino App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881F4313243FC407001139EF /* Build configuration list for PBXNativeTarget "Casino App" */;
+			buildPhases = (
+				881F42FB243FC406001139EF /* Sources */,
+				881F42FC243FC406001139EF /* Frameworks */,
+				881F42FD243FC406001139EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Casino App";
+			productName = "Casino App";
+			productReference = 881F42FF243FC406001139EF /* Poker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		881F42F7243FC406001139EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Edmund Wong";
+				TargetAttributes = {
+					881F42FE243FC406001139EF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 881F42FA243FC406001139EF /* Build configuration list for PBXProject "Casino App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 881F42F6243FC406001139EF;
+			productRefGroup = 881F4300243FC406001139EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				881F42FE243FC406001139EF /* Casino App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		881F42FD243FC406001139EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881F4354243FD31F001139EF /* card16.jpg in Resources */,
+				881F435C243FD31F001139EF /* card39.jpg in Resources */,
+				884B01B5243FFB76003831AE /* card0.jpg in Resources */,
+				881F4363243FD31F001139EF /* card23.jpg in Resources */,
+				881F4350243FD31F001139EF /* card29.jpg in Resources */,
+				881F434D243FD31F001139EF /* card49.jpg in Resources */,
+				881F4355243FD31F001139EF /* card17.jpg in Resources */,
+				881F4381243FD31F001139EF /* card47.jpg in Resources */,
+				881F4379243FD31F001139EF /* card40.jpg in Resources */,
+				881F4378243FD31F001139EF /* card42.jpg in Resources */,
+				881F430F243FC407001139EF /* LaunchScreen.storyboard in Resources */,
+				881F436F243FD31F001139EF /* card19.jpg in Resources */,
+				881F4360243FD31F001139EF /* card21.jpg in Resources */,
+				881F437A243FD31F001139EF /* card41.jpg in Resources */,
+				881F4368243FD31F001139EF /* card5.jpg in Resources */,
+				881F436B243FD31F001139EF /* card33.jpg in Resources */,
+				881F437E243FD31F001139EF /* card44.jpg in Resources */,
+				881F4364243FD31F001139EF /* card37.jpg in Resources */,
+				881F437C243FD31F001139EF /* card51.jpg in Resources */,
+				881F436E243FD31F001139EF /* card6.jpg in Resources */,
+				881F430C243FC407001139EF /* Assets.xcassets in Resources */,
+				881F434E243FD31F001139EF /* card48.jpg in Resources */,
+				881F4374243FD31F001139EF /* card18.jpg in Resources */,
+				881F4351243FD31F001139EF /* card28.jpg in Resources */,
+				881F436A243FD31F001139EF /* card32.jpg in Resources */,
+				881F4365243FD31F001139EF /* card36.jpg in Resources */,
+				881F4373243FD31F001139EF /* card30.jpg in Resources */,
+				881F4371243FD31F001139EF /* card25.jpg in Resources */,
+				881F4367243FD31F001139EF /* card1.jpg in Resources */,
+				881F4380243FD31F001139EF /* card46.jpg in Resources */,
+				881F435D243FD31F001139EF /* card3.jpg in Resources */,
+				884B01BF24405C97003831AE /* poker.json in Resources */,
+				881F4362243FD31F001139EF /* card2.jpg in Resources */,
+				881F4358243FD31F001139EF /* card12.jpg in Resources */,
+				881F435B243FD31F001139EF /* card11.jpg in Resources */,
+				881F4352243FD31F001139EF /* card14.jpg in Resources */,
+				881F4377243FD31F001139EF /* card43.jpg in Resources */,
+				881F435A243FD31F001139EF /* card10.jpg in Resources */,
+				881F436C243FD31F001139EF /* card27.jpg in Resources */,
+				881F435E243FD31F001139EF /* card34.jpg in Resources */,
+				884B01D02442CE0C003831AE /* poker.png in Resources */,
+				881F4353243FD31F001139EF /* card9.jpg in Resources */,
+				881F430A243FC406001139EF /* Main.storyboard in Resources */,
+				881F4357243FD31F001139EF /* card13.jpg in Resources */,
+				881F4366243FD31F001139EF /* card22.jpg in Resources */,
+				881F4361243FD31F001139EF /* card35.jpg in Resources */,
+				881F437F243FD31F001139EF /* card52.jpg in Resources */,
+				881F4370243FD31F001139EF /* card31.jpg in Resources */,
+				881F4369243FD31F001139EF /* card26.jpg in Resources */,
+				881F434F243FD31F001139EF /* card15.jpg in Resources */,
+				881F4359243FD31F001139EF /* card38.jpg in Resources */,
+				881F4356243FD31F001139EF /* card8.jpg in Resources */,
+				881F436D243FD31F001139EF /* card4.jpg in Resources */,
+				881F4375243FD31F001139EF /* card7.jpg in Resources */,
+				881F437D243FD31F001139EF /* card50.jpg in Resources */,
+				881F4372243FD31F001139EF /* card24.jpg in Resources */,
+				881F437B243FD31F001139EF /* card45.jpg in Resources */,
+				881F435F243FD31F001139EF /* card20.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		881F42FB243FC406001139EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881F4307243FC406001139EF /* PokerViewController.swift in Sources */,
+				881F4303243FC406001139EF /* AppDelegate.swift in Sources */,
+				88B246A92446B109000F2EDB /* AccountViewController.swift in Sources */,
+				884B01BD24405920003831AE /* PayoutTableViewController.swift in Sources */,
+				881F4305243FC406001139EF /* SceneDelegate.swift in Sources */,
+				884B01BB244055E7003831AE /* PayoutTableViewCell.swift in Sources */,
+				884B01C324405EA3003831AE /* SwiftyJSON.swift in Sources */,
+				884B01C724417C1A003831AE /* MainViewController.swift in Sources */,
+				88B246AD24476622000F2EDB /* StatsDetailTableViewCell.swift in Sources */,
+				8836140B24485BDF0037A67C /* Extension.swift in Sources */,
+				88B246A52446267D000F2EDB /* StatsTableViewCell.swift in Sources */,
+				88B246AB24476604000F2EDB /* StatsDetailTableViewController.swift in Sources */,
+				884B01C524417772003831AE /* Poker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		881F4308243FC406001139EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881F4309243FC406001139EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		881F430D243FC407001139EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881F430E243FC407001139EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		881F4311243FC407001139EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		881F4312243FC407001139EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		881F4314243FC407001139EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY8C59P73Z;
+				INFOPLIST_FILE = "Casino App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Edmund-Wong.Casino-App";
+				PRODUCT_NAME = Poker;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		881F4315243FC407001139EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY8C59P73Z;
+				INFOPLIST_FILE = "Casino App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Edmund-Wong.Casino-App";
+				PRODUCT_NAME = Poker;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		881F42FA243FC406001139EF /* Build configuration list for PBXProject "Casino App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881F4311243FC407001139EF /* Debug */,
+				881F4312243FC407001139EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881F4313243FC407001139EF /* Build configuration list for PBXNativeTarget "Casino App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881F4314243FC407001139EF /* Debug */,
+				881F4315243FC407001139EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 881F42F7243FC406001139EF /* Project object */;
+}

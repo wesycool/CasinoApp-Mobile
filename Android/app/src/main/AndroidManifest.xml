@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ut.casinoapp">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:fullBackupContent="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/poker"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="sensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PokerActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="sensor"
+            android:label="@string/poker"
+            android:windowSoftInputMode="adjustPan"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity android:name=".PayoutActivity"
+            android:parentActivityName=".PokerActivity"
+            android:screenOrientation="sensor"
+            android:label="@string/payout"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PokerActivity" />
+        </activity>
+
+        <activity android:name=".AccountActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="sensor"
+            android:label="@string/account"
+            android:windowSoftInputMode="adjustPan"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity android:name=".StatsDetailActivity"
+            android:parentActivityName=".AccountActivity"
+            android:screenOrientation="sensor"
+            android:label="@string/jackpot"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AccountActivity" />
+        </activity>
+
+
+    </application>
+
+
+</manifest>
